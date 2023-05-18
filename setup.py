@@ -36,7 +36,9 @@ setup(
         "tiktoken>=0.3",
         "nest_asyncio",
         "requests",
-        "numpy"
+        "numpy",
+        "sentencepiece",
+        "transformers"
     ],
     extras_require={
         'docs': [
